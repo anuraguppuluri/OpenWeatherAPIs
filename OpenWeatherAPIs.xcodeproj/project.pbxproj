@@ -101,12 +101,12 @@
 		A20E5C4529DCB67B00BAE938 /* OpenWeatherAPIs */ = {
 			isa = PBXGroup;
 			children = (
-				A20E5C4629DCB67B00BAE938 /* AppDelegate.swift */,
-				A20E5C4829DCB67B00BAE938 /* SceneDelegate.swift */,
-				A20E5C4A29DCB67B00BAE938 /* ViewController.swift */,
-				A20E5C4C29DCB67B00BAE938 /* Main.storyboard */,
+				A20E5C7929DCB8C800BAE938 /* Model */,
+				A20E5C7A29DCB8D100BAE938 /* View */,
+				A20E5C7B29DCB8E400BAE938 /* ViewModel */,
+				A20E5C7C29DCB90B00BAE938 /* AppUtilities */,
+				A20E5C7D29DCB91B00BAE938 /* Application */,
 				A20E5C5229DCB69800BAE938 /* Assets.xcassets */,
-				A20E5C5429DCB69800BAE938 /* LaunchScreen.storyboard */,
 				A20E5C5729DCB69800BAE938 /* Info.plist */,
 				A20E5C4F29DCB67B00BAE938 /* OpenWeatherAPIs.xcdatamodeld */,
 			);
@@ -128,6 +128,70 @@
 				A20E5C6C29DCB69A00BAE938 /* OpenWeatherAPIsUITestsLaunchTests.swift */,
 			);
 			path = OpenWeatherAPIsUITests;
+			sourceTree = "<group>";
+		};
+		A20E5C7929DCB8C800BAE938 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A20E5C7A29DCB8D100BAE938 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A20E5C7E29DCB98A00BAE938 /* ViewController */,
+				A20E5C8029DCB9A400BAE938 /* Cell */,
+				A20E5C8129DCB9AA00BAE938 /* UI */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A20E5C7B29DCB8E400BAE938 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A20E5C7C29DCB90B00BAE938 /* AppUtilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AppUtilities;
+			sourceTree = "<group>";
+		};
+		A20E5C7D29DCB91B00BAE938 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				A20E5C4629DCB67B00BAE938 /* AppDelegate.swift */,
+				A20E5C4829DCB67B00BAE938 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		A20E5C7E29DCB98A00BAE938 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A20E5C4A29DCB67B00BAE938 /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A20E5C8029DCB9A400BAE938 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A20E5C8129DCB9AA00BAE938 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A20E5C4C29DCB67B00BAE938 /* Main.storyboard */,
+				A20E5C5429DCB69800BAE938 /* LaunchScreen.storyboard */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
